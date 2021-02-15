@@ -1,0 +1,345 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+
+    <style>
+    body{
+        margin: 0px;
+       
+    }
+  
+    .pizza{
+      
+
+      
+      position: sticky;
+      top:0px;
+      height: 83px;
+          
+
+
+
+    }
+
+    .img{
+
+        border-radius: 50%;
+        height: 80px;
+        width: 60px;
+        Float:left;
+    }
+    #text{
+        
+
+        position: relative;
+        top:30px;
+        left:5px;
+        
+        
+    }
+    .nav{
+        overflow: hidden;
+  
+
+        float: right;
+        position: relative;
+        right: 40px;
+
+    }
+    div a{
+
+        
+        
+  text-decoration:none;
+  padding: 10px;
+ 
+ 
+  
+  
+ 
+    }
+
+  .mid{
+
+      position: relative;
+      top:30px;
+      text-align: center;
+      size: 30px;
+      font-size: 30px;
+      font-weight: bold;
+     
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      
+
+  }
+    
+
+.card{
+
+
+    position: relative;
+    top:30px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-gap:140px;
+  
+
+
+}
+
+.card1{
+
+    position: relative;
+    left:30px;
+   
+    padding:5px;
+    border-color: seashell;
+    width:auto;
+
+}
+.img1{
+
+    height: 300px;
+    width:250px;
+    border-radius: 50%;
+}
+#text1{
+
+    display: relative;
+    text-align: center;
+}
+
+.button{
+
+    border-style: double;
+border-radius: 20px;
+padding: 10px;
+margin: 10px;
+background-color:rosybrown;
+height:50px;
+width:100px;
+position: relative;
+left: 50px;
+
+}
+
+.img2{
+
+    height: 600px;
+    width: 100%;
+    opacity: 50%;
+}
+.imgtext{
+
+    position: absolute;
+    top:100px;
+    left:100px;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.offer{
+
+    position: relative;
+    
+}
+#imgpizza{
+
+    font-size: 30px;
+    font-family:serif;
+    font-weight: 10px;
+    color:green;
+
+    
+}
+.btn1{
+
+    width:200px;
+    background-color: green;
+    position: relative;
+    left:40px;
+    opacity: 80%;
+
+}
+
+#ani{
+
+    position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+  25%  { left:300px; top:0px;}
+  50%  { left:300px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+    
+ 
+}
+.child :: hover{
+
+background-color: tomato;
+
+}
+.footer{
+    height: auto;
+    background-color: tomato;
+}
+.fotgrid{
+    
+        display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-gap:100px;
+}
+.add{
+
+    position: relative;
+    left:20px;
+    top:40px;
+}
+li{
+    display: inline;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="pizza">
+
+   <div class="pizimg">
+
+    <img  class="img" src="pizza.jfif" alt="pizza">
+    <p id="text"><i><b>Pizza Bazar</b></i></p>         
+
+   </div>
+   <div class="nav">
+    <a href="#search"><b>Buy Now</b></a>
+   
+  </div>
+
+</div>
+
+
+<div class="mid offer">
+
+    <p>Today Special Offers!</p>
+</div>
+<br><br>
+
+
+<div class="offer">
+
+    <img  class="img2" src="pizza1.jpg" alt="pizza">
+    <div class="imgtext">
+       <p id="ani"> Buy 2 Get 1</p>
+          <p id="imgpizza">FREE PIZZA!</p>
+
+          <button type="button" class="button btn1" >ADD TO CART</button>
+    </div>
+
+   
+
+
+</div>
+
+<div class="mid">
+
+    <p>Our Best Sellers</p>
+</div>
+
+<div class="card">
+
+   <div class="card1 child">
+
+
+    <img  class="img1" src="pizza1.jpg" alt="pizza">
+
+    <p id="text1"><b>Veg Pizza</b></p>
+    <p id="text1">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</p>
+    <button type="button" class="button" >View All</button>
+
+   </div>
+   <div class="card2">
+
+    <img  class="img1" src="pizza1.jpg" alt="pizza">
+
+    <p id="text1"><b>Non-Veg Pizza</b></p>
+    <p id="text1">Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza with your choice of crusts & toppings
+
+    </p>
+    <button type="button" class="button" >View All</button>
+
+   </div>
+   <div class="card3">
+    <img  class="img1" src="pizza1.jpg" alt="pizza">
+    <p id="text1"><b>Pizza Mania</b></p>
+    <p id="text1">Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza with your choice of crusts &</p>
+    <button type="button" class="button" >View All</button>
+   </div>
+   <div class="card4">
+    <img  class="img1" src="pizza1.jpg" alt="pizza">
+    <p id="text1"><b>Pizza Mania</b></p>
+    <p id="text1">Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza with your choice of crusts &</p>
+    <button type="button" class="button" >View All</button>
+   </div>
+
+</div>
+<br>
+<br>
+<br>
+<br>
+<footer class="footer">
+<br>
+<br>
+
+    <div style="border-top:2px solid;" >
+     
+
+    </div>
+  <div class="fotgrid">
+
+    <div class="add">
+
+        <p style="font-size: 30px;font-family: cursive;font-weight: 20px;">Address
+        </p>
+    <p style="font-size: 10px;font-family: cursive;font-weight: bold;"> kranti nagar Addanki</p>
+    </div>
+    
+
+    <div style="position: relative;top:40px;left:450px">
+
+
+        <p style="font-size: 30px;font-family: cursive;font-weight: 20px;">Opening Hours
+        </p>
+    <p style="font-size: 10px;font-family: cursive;position: relative;left: 20px;font-weight: bold;"> 
+        10.00 AM – 11.00 PM</p>
+    </div>
+    <div  style="position: relative;top:40px;left:900px">
+
+        <p style="font-size: 30px;font-family: cursive;font-weight: 20px;">Book a table
+        </p>
+    <p style="font-size: 10px;font-family: cursive;position: relative;left: 20px;font-weight: bold;"> +91 223359</p>
+    </div>
+
+</div>
+<br>
+<br>
+
+    © Copyright 2021 pizza Bazar - All Rights Reserved
+
+
+</footer>
+
+
+
+</body>
+</html>
